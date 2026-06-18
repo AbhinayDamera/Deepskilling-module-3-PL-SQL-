@@ -1,0 +1,10 @@
+SET SERVEROUTPUT ON;
+
+DECLARE
+    var VARCHAR2(40) := 'Abhnay Here';
+
+BEGIN
+    DBMS_OUTPUT.PUT_LINE(var);
+
+END;
+/
