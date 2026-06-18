@@ -1,0 +1,11 @@
+SET SERVEROUTPUT ON;
+
+DECLARE
+    var1 INTEGER;
+    var2 REAL;
+    var3 VARCHAR2(20);
+
+BEGIN
+    NULL;
+END;
+/
