@@ -1,0 +1,15 @@
+SET SERVEROUTPUT ON;
+
+DECLARE
+   v_name VARCHAR2(50);
+BEGIN
+   SELECT ename
+   INTO v_name
+   FROM emp
+   WHERE empno = 9999;
+
+EXCEPTION
+   WHEN NO_DATA_FOUND THEN
+      DBMS_OUTPUT.PUT_LINE('Employee not found');
+END;
+/
