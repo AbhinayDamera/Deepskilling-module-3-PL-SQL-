@@ -1,0 +1,7 @@
+| Exception        | Description                       |
+| ---------------- | --------------------------------- |
+| `ZERO_DIVIDE`    | Division by zero                  |
+| `NO_DATA_FOUND`  | SELECT INTO returns no rows       |
+| `TOO_MANY_ROWS`  | SELECT INTO returns multiple rows |
+| `VALUE_ERROR`    | Arithmetic/conversion error       |
+| `INVALID_NUMBER` | Invalid number conversion         |
